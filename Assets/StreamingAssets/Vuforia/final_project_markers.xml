@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="2Dmarker" size="39.000000 28.867973"/>
+        <ImageTarget name="3Dmarker.Left" size="30.000000 30.000000"/>
+        <ImageTarget name="3Dmarker.Top" size="30.000000 30.000000"/>
+        <ImageTarget name="3Dmarker.Right" size="30.000000 29.969105"/>
+        <ImageTarget name="3Dmarker.Back" size="30.000000 30.063158"/>
+        <ImageTarget name="3Dmarker.Front" size="30.000000 30.000000"/>
+        <MultiTarget name="3Dmarker">
+            <Part name="3Dmarker.Left" translation="-15.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="3Dmarker.Right" translation="15.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="3Dmarker.Front" translation="0 0 15.0" rotation="AD: 1 0 0 0"/>
+            <Part name="3Dmarker.Back" translation="0 0 -15.0" rotation="AD: 0 1 0 180"/>
+            <Part name="3Dmarker.Top" translation="0 15.0 0" rotation="AD: 1 0 0 -90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
